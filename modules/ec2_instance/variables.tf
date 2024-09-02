@@ -3,13 +3,13 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  description = "EC2 instance type"
+  description = "Type of EC2 instance"
 }
 
 variable "key_name" {
-  description = "The name of the SSH key pair"
+  description = "Name of the SSH key pair"
 }
 
-variable "security_group" {
-  description = "Security group ID for the EC2 instance"
+variable "security_group_id" {
+  description = "ID of the security group"
 }
